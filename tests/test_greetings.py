@@ -7,7 +7,7 @@ class TestGreetings(unittest.TestCase):
 
     def test_say_hello(self):
         """Let's check if say_hello actually say Hello"""
-        self.assertEqual(say_hello(), 'Popo')
+        self.assertEqual(say_hello(), 'Hello')
 
 if __name__ == '__main__':
     unittest.main()
